@@ -3232,9 +3232,9 @@ html, body {
 a {
   color: #000000; }
   a:hover {
-    color: #755CE6; }
+    color: red; }
     a:hover::before {
-      color: #755CE6; }
+      color: red; }
     a:hover::before {
       -webkit-transition: color .25s ease;
       transition: color .25s ease; }
@@ -3292,7 +3292,7 @@ body {
     font-weight: 800;
     line-height: 1.5em; }
   #text-header h1 span {
-    color: #755CE6; }
+    color: red; }
   #text-header h1 sup {
     opacity: 0.2; }
 
@@ -3307,7 +3307,7 @@ body {
 .box {
   margin-bottom: 15px; }
   .box h2 {
-    color: #755CE6;
+    color: red;
     font-size: 1.7em;
     font-weight: 700;
     text-transform: uppercase; }
@@ -3331,11 +3331,11 @@ body {
     top: 0;
     content: ' ';
     display: block;
-    background: #755CE6;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(7%, #755CE6), color-stop(89%, #755CE6), color-stop(100%, #ffffff));
-    background: -webkit-linear-gradient(top, #ffffff 0%, #755CE6 7%, #755CE6 89%, #ffffff 100%);
-    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(7%, #755CE6), color-stop(89%, #755CE6), to(#ffffff));
-    background: linear-gradient(to bottom, #ffffff 0%, #755CE6 7%, #755CE6 89%, #ffffff 100%);
+    background: red;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(7%, red), color-stop(89%, red), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(top, #ffffff 0%, red 7%, red 89%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(7%, red), color-stop(89%, red), to(#ffffff));
+    background: linear-gradient(to bottom, #ffffff 0%, red 7%, red 89%, #ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); }
   #education li {
     width: 100%;
@@ -3426,7 +3426,7 @@ body {
 
 .item-skills {
   height: 30px;
-  background: #755CE6;
+  background: red;
   color: #fff;
   padding: 5px 10px;
   margin-bottom: 5px;
@@ -3495,7 +3495,7 @@ body {
   margin-right: 5px;
   margin-bottom: 5px;
   padding: 5px 5px 5px 25px;
-  background: #755CE6;
+  background: red;
   position: relative;
   font-size: 1.2em; }
   .hobby:before {
@@ -3519,7 +3519,9 @@ body {
 
 @media (min-width: 992px) {
   #education .description {
-    width: 87%; } }
+    width: 87%; }
+  .html5-video-container {
+    width: 50%; } }
 
 @media (min-width: 1200px) {
   #education .description {
